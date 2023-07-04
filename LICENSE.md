@@ -1,0 +1,1 @@
+Pylon Components: An open-source pylon components and fault detection dataset for training the ML Algorithms is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.

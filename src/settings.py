@@ -20,7 +20,7 @@ RELEASE_YEAR: int = 2021
 HOMEPAGE_URL: str = "https://zenodo.org/record/4573988"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 402251
+PREVIEW_IMAGE_ID: int = 1472828
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/pylon-components"
@@ -30,8 +30,8 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/pylon-components"
 ### * Optional after uploading ###
 ##################################
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
-    "Readme": "https://zenodo.org/record/4573988/files/README.md?download=1",
-    "UAS training data": "https://zenodo.org/record/4573988/files/UAS_training_data.zip?download=1",
+    "README.md": "https://zenodo.org/record/4573988/files/README.md?download=1",
+    "UAS_training_data.zip": "https://zenodo.org/record/4573988/files/UAS_training_data.zip?download=1",
 }
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 

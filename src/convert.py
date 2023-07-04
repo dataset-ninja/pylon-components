@@ -1,19 +1,19 @@
 # https://zenodo.org/record/4573988
 
 import os
+import xml.etree.ElementTree as ET
+
 import numpy as np
 import supervisely as sly
+from dotenv import load_dotenv
 from supervisely.io.fs import (
-    get_file_name_with_ext,
-    get_file_name,
-    get_file_ext,
     file_exists,
+    get_file_ext,
+    get_file_name,
+    get_file_name_with_ext,
     get_file_size,
 )
-import xml.etree.ElementTree as ET
 from supervisely.io.json import load_json_file
-from dotenv import load_dotenv
-
 
 # if sly.is_development():
 # load_dotenv("local.env")
@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 
 
 # project_name = "pylon components"
-dataset_path = "./APP_DATA/UAS_training_data"
+dataset_path = "APP_DATA/UAS_training_data"
 batch_size = 30
 ds_name = "ds"
 images_ext = ".jpg"
@@ -71,6 +71,7 @@ idx_to_class = {
     2: obj_class_covered_insolator,
 }
 
+
 def convert_and_upload_supervisely_project(
     api: sly.Api, workspace_id: int, project_name: str
 ) -> sly.ProjectInfo:
@@ -98,4 +99,3 @@ def convert_and_upload_supervisely_project(
         progress.iters_done_report(len(img_names_batch))
 
     return project
-
