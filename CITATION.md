@@ -1,6 +1,6 @@
 If you make use of the Pylon Components data, please cite the following reference:
 
-``` bibtex 
+```bibtex
 @dataset{naeem_ayoub_2021_4573988,
   author       = {Naeem Ayoub and
                   Oscar Bowen Schofield},
@@ -15,4 +15,4 @@ If you make use of the Pylon Components data, please cite the following referenc
 }
 ```
 
-[🔗 Source](https://zenodo.org/record/4573988/export/hx)
+[Source](https://zenodo.org/record/4573988/export/hx)

@@ -14,14 +14,17 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Pylon Components"
-PROJECT_NAME_FULL: str = "Pylon Components: An open-source pylon components and fault detection dataset for training the ML Algorithms"
+PROJECT_NAME_FULL: str = "Pylon Components: An Open-source Pylon Components and Fault Detection Dataset for Training the ML Algorithms"
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Energy()]
-CATEGORY: Category = Category.EnergyAndUtilities()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Energy(),
+    Domain.DroneInspection(),
+]
+CATEGORY: Category = Category.EnergyAndUtilities(extra=Category.Drones())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]

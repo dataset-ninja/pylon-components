@@ -1,0 +1,1 @@
+This is an open dataset for the pylon components inspection community. The dataset contains 555 images (jpg and png) of three different classes of pylon components (Insulator, Pylon, and Covered Insulator) and their respective annotation (bounding boxes) files. This is a three classes problem and images vary in dimensions and captured from different angles from the drone camera.
