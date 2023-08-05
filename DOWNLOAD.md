@@ -1,4 +1,4 @@
-Dataset **Pylon Components** can be downloaded in Supervisely format:
+Dataset **Pylon Components** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
  [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/j/Z/aJ/t4cRL52eoP8nviF9AI5IsP2i88KOeG8kyyUQbDdILupYJ4mZfvkCbVBw2Q7JtgK3pYlRtUFJvFNB3Gc2uz7q8jujn232GYS7YgE9rtx86j69quXUYT9M2GysytIK.tar)
 
@@ -11,9 +11,11 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Pylon Components', dst_path='~/dtools/datasets/Pylon Components.tar')
+dtools.download(dataset='Pylon Components', dst_dir='~/dataset-ninja/')
 ```
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
 The data in original format can be downloaded here:
 
-- 🔗[README.md](https://zenodo.org/record/4573988/files/README.md?download=1)
-- 🔗[UAS_training_data.zip](https://zenodo.org/record/4573988/files/UAS_training_data.zip?download=1)
+- [README.md](https://zenodo.org/record/4573988/files/README.md?download=1)
+- [UAS_training_data.zip](https://zenodo.org/record/4573988/files/UAS_training_data.zip?download=1)
