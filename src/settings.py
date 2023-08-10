@@ -15,6 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Pylon Components"
 PROJECT_NAME_FULL: str = "Pylon Components: An Open-source Pylon Components and Fault Detection Dataset for Training the ML Algorithms"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -82,6 +83,7 @@ def get_settings():
 
     settings = {
         "project_name": PROJECT_NAME,
+        "hide_dataset": HIDE_DATASET,
         "license": LICENSE,
         "applications": APPLICATIONS,
         "category": CATEGORY,
