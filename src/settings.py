@@ -55,9 +55,10 @@ DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = None
+PAPER: Optional[str] = "https://portal.findresearcher.sdu.dk/en/publications/design-integration-and-implementation-of-an-intelligent-and-self-"
 CITATION_URL: Optional[str] = "https://zenodo.org/record/4573988/export/hx"
 AUTHORS: Optional[List[str]] = ["Naeem Ayoub", "Oscar Bowen Schofield"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["esme@sdu.dk", "esme@sdu.dk", "gerd.vom.boegel@ims.fraunhofer.de", "nomi@sdu.dk"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "SDU UAS Center, Denmark"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.sdu.dk/en/forskning/sduuascenter"
@@ -105,6 +106,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
