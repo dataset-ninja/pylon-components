@@ -1,6 +1,6 @@
 Dataset **Pylon Components** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/579yjftouln56mma6xhlu/pylon-components-DatasetNinja.tar?rlkey=sbo2zyrhokmw18klb03gtiav3&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEzMDlfUHlsb24gQ29tcG9uZW50cy9weWxvbi1jb21wb25lbnRzLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIjJPWHJMbm80VXBVZFhzSmVrLzYxSFd0UGdiK1llZFcvM21VMkcyMFNFeUk9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
